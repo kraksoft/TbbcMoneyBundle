@@ -8,6 +8,8 @@ namespace Tbbc\MoneyBundle\Pair\Storage;
 
 
 use Money\Currency;
+use Money\UnknownCurrencyException;
+use Tbbc\MoneyBundle\MoneyException;
 use Tbbc\MoneyBundle\Pair\StorageInterface;
 
 class CsvStorage
